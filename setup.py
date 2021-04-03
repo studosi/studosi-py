@@ -8,7 +8,7 @@ def readme(path: str = "./README.md"):
 
 setup(
     name="studosi",
-    version="0.0.0.dev1",
+    version="0.0.0.dev2",
     description="The official Studoši Python toolkit",
     long_description=readme(),
     long_description_content_type="text/markdown",

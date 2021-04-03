@@ -4,11 +4,11 @@
 
 # Installation
 
-## PyPi
+## PyPI
 
 - run `pip install studosi`.
 
-## Build from source
+## Install from source
 
 - clone this repository: `git clone https://github.com/studosi/studosi-py`
 - position yourself in the `studosi-py` folder: `cd studosi-py`
