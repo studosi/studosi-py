@@ -6,7 +6,7 @@
 
 ## PyPi
 
-- run `pip install studosi-py`.
+- run `pip install studosi`.
 
 ## Build from source
 

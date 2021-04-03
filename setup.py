@@ -13,8 +13,8 @@ setup(
     long_description=readme(),
     long_description_content_type="text/markdown",
     url="https://github.com/studosi/studosi-py",
-    author="Miljenko Šuflaj [micho];",
-    author_email="headsouldev@gmail.com;",
+    author="Miljenko Šuflaj [micho]",
+    author_email="headsouldev@gmail.com",
     license="Apache License 2.0",
     classifiers=[
         "Development Status :: 1 - Planning",
