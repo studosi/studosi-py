@@ -248,7 +248,7 @@ class SubjectMeta:
                 default=None,
                 help=(
                     "The subject properties. List of strings in the format: "
-                    "`program:study:course:module:semester:subject_class`",
+                    "program:study:course:module:semester:group"
                 ),
             )
 
@@ -260,7 +260,7 @@ class SubjectMeta:
                 default=None,
                 help=(
                     "The subject links. List of strings in the format: "
-                    "`link_identifier:url:description`. The description is optional",
+                    "`link_identifier:url:description`. The description is optional"
                 ),
             )
 
@@ -281,7 +281,7 @@ class SubjectMeta:
     @staticmethod
     def property_strings_to_dict(
         property_strings: Iterable[str],
-    ) -> Dict[str, Dict[str, Dict[str, Dict[str, Dict[int, List[str]]]]]]:
+    ) -> Dict[str, Dict[str, Dict[str, Dict[str, Dict[int, Set[str]]]]]]:
         to_return = dict()
 
         for property_string in property_strings:

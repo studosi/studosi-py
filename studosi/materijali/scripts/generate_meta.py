@@ -19,10 +19,12 @@ io_group.add_argument(
 # endregion
 
 # region Subject
+
 SubjectMeta.decorate_parser(
     parser=parser,
     group_name="subject",
 )
+
 
 # endregion
 
