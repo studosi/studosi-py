@@ -27,7 +27,8 @@ def generate_install(version: str = "8.0", use_sudo: bool = False):
     to_return += f"\t{php_prefix}-gd \\\n"
     to_return += f"\t{php_prefix}-xml \\\n"
     to_return += f"\t{php_prefix}-cli \\\n"
-    to_return += f"\t{php_prefix}-zip\n"
+    to_return += f"\t{php_prefix}-zip \\\n"
+    to_return += f"\t{php_prefix}-curl\n"
 
     return to_return
 

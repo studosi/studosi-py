@@ -50,6 +50,7 @@ setup(
     ),
     install_requires=[
         "schema",
+        "Unidecode",
     ],
     python_requires=">=3.8",
     package_data={
