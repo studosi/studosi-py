@@ -1,3 +1,5 @@
+# TODO Move to regex
+
 REGEX_SUFFIX = r"\s*=[^\r\n]*"
 PHP_ORIGIN = (
     f"file_uploads{REGEX_SUFFIX}",
