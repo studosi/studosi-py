@@ -303,7 +303,6 @@ class SubjectMeta:
         property_strings: Iterable[str],
     ) -> Dict[str, Dict[str, Dict[str, Dict[str, Dict[str, Set[str]]]]]]:
         to_return = dict()
-
         for property_string in property_strings:
             (
                 program,
@@ -333,8 +332,6 @@ class SubjectMeta:
                 course_dict[module] = dict()
 
             module_dict = course_dict[module]
-
-            semester = int(semester)
 
             if semester not in module_dict:
                 module_dict[semester] = set()
